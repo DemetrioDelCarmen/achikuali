@@ -16,6 +16,19 @@
     width: 8rem;
 }
 
+.dropdown-menu{
+
+    background-color:#192730;
+    color: #E2C375;
+
+}
+
+.dropdown-menu a {
+
+  
+    color: #E2C375;
+
+}
 .section{
     position: relative;
     width: 100%;
