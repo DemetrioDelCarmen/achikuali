@@ -7,10 +7,27 @@
     background: linear-gradient(90deg,  #000000 0, #192730 50%)
 }
 
-.text-achi{
+/* .text-achi{
     color: #E2C375 !important
 }
+ */
 
+
+ #portfolio{
+    color: #E2C375;
+
+ }
+
+
+ .navbar{
+
+    text-transform: uppercase;
+    
+
+ }
+ .navbar a {
+     color: white;
+ }
 .navbar-brand img{
 
     width: 8rem;
@@ -29,35 +46,7 @@
     color: #E2C375;
 
 }
-.section{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
 
-.section h3{
-    text-align: center;
-    color: aliceblue;
-    font-size: 4rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 20px;
-    margin: 15px;
-    z-index: 1;
-}
-
-.section h3 img{
-    height: 61px;
-    width: 55px;
-}
-
-/* 
-.section h1  span{
-    color: #ecc100
-} */
 
 .video-container{
     position: absolute;
@@ -75,6 +64,55 @@
     height: 100vh;
     opacity: 0.8;
 }
+
+
+.caption{
+
+    top:40%;
+    max-width: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.caption h3{
+    color: #E9ECEF;
+    text-transform: uppercase;
+}
+
+h3.heading{
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    
+}
+
+
+.padding{
+    padding: 2rem 0;
+}
+.container-fuild h3{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+img.portfolio{
+
+    max-width: 50%;
+}
+
+#smaartLG{
+    max-width: 100%;
+}
+
+.no-padding .col-md-6{
+    padding: 0;
+}
+
+
+
 #footer{
     
     background: linear-gradient(90deg,  #000000 0, #192730 50%)
@@ -92,11 +130,15 @@
 
 
 body {
-	overflow-x: hidden; /*--right gutter fix--*/
+    overflow-x: hidden; /*--right gutter fix--*/
+    
 }
 
 
-
+.home-inner{
+    
+    background-image: url('img/galaxyIMG2.jpg')
+}
 
 
 
@@ -147,15 +189,74 @@ body {
 .card img{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+
  
  }
+
+ .card h6{
+
+    color: #1e5372;
+
+
+ }
 .card:hover{
-    -webkit-box-shadow: 0px 33px 55px -6px rgba(111,198,242,1);
-    -moz-box-shadow: 0px 33px 55px -6px rgba(111,198,242,1);
-     box-shadow: 0px 33px 55px -6px rgba(111,198,242,1);
+    -webkit-box-shadow: 0px 33px 83px -20px rgba(25,39,48,1);
+    -moz-box-shadow: 0px 33px 83px -20px rgba(25,39,48,1);
+    box-shadow: 0px 33px 83px -20px rgba(25,39,48,1);
 
 }
 
 
 
+/* buttons */
+.btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  /* Boostrap Buttons Styling */
+  
+  .btn-default {
 
+    font-size: 15px;
+    color: #E2C375;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid  #192730;
+    border-radius: 40px;
+    background: linear-gradient(90deg,  #000000 0, #192730 50%);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  
+  .btn-default:hover {
+    color: #000000;
+    background:   #E2C375;
+    border: 2px solid #192730;
+  }
+
+  /*button main*/
+  .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  /* Boostrap Buttons Styling */
+  
+  .btn-main{
+    font-size: 15px;
+    color: #E2C375;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid  #192730;
+    border-radius: 40px;
+    background: linear-gradient(90deg,  #000000 0, #192730 50%);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  
+  .btn-main:hover {
+    color: #000000;
+    background:   #E2C375;
+    border: 2px solid #192730;
+  }
