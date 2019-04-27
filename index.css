@@ -5,8 +5,10 @@
 .header{
  
     background: linear-gradient(90deg,  #000000 0, #192730 50%);
-    transition: opacity 300ms ease-in-out 1s;
+  
 }
+
+
 
 /* .text-achi{
     color: #E2C375 !important
@@ -32,9 +34,9 @@
  }
 .navbar-brand img{
 
-    width: 8rem;
+    width: 9rem;
+  
 }
-
 
 
 
@@ -154,21 +156,6 @@ img.portfolio{
 }
 
 
-
-#footer{
-    
-    background: linear-gradient(90deg,  #000000 0, #192730 50%)
-   
-}
-#footer a{
-
-    color: aliceblue;
-
-}
-
-/* #dropdown-menu{
-
-} */
 
 
 body {
@@ -323,11 +310,65 @@ body {
   
   
   .btn-main:hover {
-    color: #000000;
+    color: #192730;
     background:   #E2C375;
     border: 2px solid #192730;
   }
 
-  .jumbotron{
+.jumbotron{
       background-color: #ffffff;
+  }
+
+
+#footer{
+    
+    background: linear-gradient(90deg,  #000000 0, #192730 50%)
+   
+}
+#footer a{
+
+    color: aliceblue;
+
+}
+
+
+
+#footer img{
+    
+    max-width: 15rem;
+}
+
+  #footer h5{
+      text-transform: uppercase;
+      color: #e9c361;
+      font-size: 1rem;
+  }
+
+
+  #footer h6{
+    color: #E9ECEF;
+    font-size: 1rem;
+  }
+  #footer p{
+      color: #E9ECEF;
+      font-size: 0.8rem;
+  }
+
+
+     /* End Hexagons footer links */
+
+
+    section#footer-bottom{
+      background: #e9c361;
+      font-size: .7em;
+      height: 2.5em;
+      color: #192730;
+      clear: both;
+      width: 100%;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      display: block;
+      vertical-align: baseline;
   }
