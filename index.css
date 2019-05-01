@@ -5,7 +5,7 @@
 .header{
  
     background: linear-gradient(90deg,  #000000 0, #192730 50%);
-  
+    width: 100%;
 }
 
 
@@ -361,7 +361,7 @@ body {
     section#footer-bottom{
       background: #e9c361;
       font-size: .7em;
-      height: 2.5em;
+      height: 2.9em;
       color: #192730;
       clear: both;
       width: 100%;
