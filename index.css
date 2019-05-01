@@ -5,6 +5,7 @@
 .header{
  
     background: linear-gradient(90deg,  #000000 0, #192730 50%);
+  
     width: 100%;
 }
 
@@ -26,7 +27,6 @@
  .navbar{
 
     text-transform: uppercase;
-    padding: 0rem 1rem;
     width: 100%;
     
 
@@ -372,5 +372,5 @@ body {
       margin: 0;
       padding: 0;
       display: block;
-      vertical-align: baseline;
+     /*  vertical-align: baseline; */
   }
