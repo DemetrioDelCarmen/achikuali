@@ -168,7 +168,7 @@ body {
 
 .home-inner{
     
-    background-image: url('img/galaxyIMG2.jpg')
+    background-image: url('img/bgLanding.jpg')
 }
 
 
@@ -180,7 +180,7 @@ body {
   width: 100%;
   height: 100vh;
   display: table;
-  background: #E9ECEF;
+  background: rgb(252, 252, 252);
   z-index: -1;
 }
 .home-wrap {
@@ -301,25 +301,22 @@ body {
   .btn-main{
     animation: mejorLoMejorIn 3s;
     font-size: 15px;
-    color: #E2C375;
+    color: rgb(255, 255, 255);
     letter-spacing: 1px;
     line-height: 15px;
-    border: 2px solid  #192730;
+    border: 2px solid  #ffffff;
     border-radius: 40px;
-    background: linear-gradient(90deg,  #000000 0, #192730 50%);
+    background: transparent;
     transition: all 0.3s ease-in-out 0s;
   }
   
   
   .btn-main:hover {
     color: #192730;
-    background:   #E2C375;
-    border: 2px solid #192730;
+    background:   rgb(248, 248, 248);
+    border: 2px solid  #00E2E3
   }
 
-.jumbotron{
-      background-color: #ffffff;
-  }
 
 
 #footer{
@@ -330,6 +327,7 @@ body {
 #footer a{
 
     color: aliceblue;
+    font-size: 0.9rem;
 
 }
 
@@ -374,3 +372,22 @@ body {
       display: block;
      /*  vertical-align: baseline; */
   }
+
+
+  /*Terminos y Condiciones*/
+.jumbotron{
+    background-color:#ffffff;    
+}
+
+#bodyTerms-contidions{
+   background: #f8f8f8;
+   color: #444;
+  
+
+
+}
+
+.littleP{
+  text-align: justify;
+  font-size: .8rem;
+}
