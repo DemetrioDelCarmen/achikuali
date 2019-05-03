@@ -135,6 +135,16 @@ h3.heading{
 }
 
 
+
+.my-container{
+  width: 100%;
+  height: 100%;
+
+
+}
+
+
+
 .padding{
     padding: 2rem 0;
 }
@@ -146,12 +156,20 @@ h3.heading{
 }
 img.portfolio{
 
-    max-width: 50%;
+    max-width: 30%;
+
 }
 
 #smaartLG{
-    max-width: 100%;
+    padding-top: 2rem;
+    max-width: 60%;
 }
+
+#utezLG{
+  
+  max-width: 60%;
+}
+
 
 .no-padding .col-md-6{
     padding: 0;
@@ -160,15 +178,24 @@ img.portfolio{
 
 
 
-body {
+body, html {
     overflow-x: hidden; /*--right gutter fix--*/
+
     
+}
+
+html{
+  padding: 0;
+  margin:0;
+  width: 100%;
+  height: 100%;
 }
 
 
 .home-inner{
     
-    background-image: url('img/bgLanding2.jpg')
+    background: url('img/galaxyIMG2.jpg') no-repeat 50% 50%;
+    
 }
 
 
@@ -391,3 +418,33 @@ body {
   text-align: justify;
   font-size: .8rem;
 }
+
+
+.termsTittle{
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(90deg,  #000000 0, #192730 50%);
+  color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;  
+}
+
+.termsTittle h1{
+  padding-top: .5rem;
+  font-size: 2rem;
+}
+
+
+.footerMore{
+
+  text-align: justify;
+}
+
+.list-group-item{
+  background-color: transparent;
+  border-top: 1px solid #e9c361;
+  border-radius:0;
+
+
+}
+
