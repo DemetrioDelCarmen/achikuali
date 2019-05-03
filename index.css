@@ -147,6 +147,7 @@ h3.heading{
 img.portfolio{
 
     max-width: 50%;
+
 }
 
 #smaartLG{
@@ -169,6 +170,7 @@ body {
 .home-inner{
     
     background-image: url('img/bgLanding2.jpg')
+    
 }
 
 
@@ -391,3 +393,33 @@ body {
   text-align: justify;
   font-size: .8rem;
 }
+
+
+.termsTittle{
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(90deg,  #000000 0, #192730 50%);
+  color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;  
+}
+
+.termsTittle h1{
+  padding-top: .5rem;
+  font-size: 2rem;
+}
+
+
+.footerMore{
+
+  text-align: justify;
+}
+
+.list-group-item{
+  background-color: transparent;
+  border-top: 1px solid #e9c361;
+  border-radius:0;
+
+
+}
+
