@@ -28,6 +28,7 @@
 
     text-transform: uppercase;
     width: 100%;
+    height: 4rem;
     
 
  }
@@ -180,6 +181,8 @@ img.portfolio{
 
 body, html {
     overflow-x: hidden; /*--right gutter fix--*/
+    border: none !important;
+    background: #f8f8f8;
 
     
 }
@@ -208,7 +211,7 @@ html{
   height: 100vh;
   display: table;
   background: rgb(252, 252, 252);
-  z-index: -1;
+  z-index: 1;
 }
 .home-wrap {
   clip: rect(0, auto, auto, 0);
@@ -382,7 +385,7 @@ html{
   }
 
 
-     /* End Hexagons footer links */
+     
 
 
     section#footer-bottom{
@@ -402,31 +405,46 @@ html{
 
 
   /*Terminos y Condiciones*/
+
+
+
+
 .jumbotron{
-    background-color:#ffffff;    
+    background-color:#f8f8f8; 
+    padding-bottom: 0px;   
 }
 
+.containerTerms{
+      padding-left: 5%;
+      padding-right: 5%;
+}
 #bodyTerms-contidions{
    background: #f8f8f8;
-   color: #444;
-  
+   border: none !important;
 
 
 }
 
+
+#strongTittle{
+  color: #676767;
+}
 .littleP{
   text-align: justify;
   font-size: .8rem;
+  color: #676767;
 }
 
 
 .termsTittle{
   text-align: center;
   text-transform: uppercase;
-  background: linear-gradient(90deg,  #000000 0, #192730 50%);
-  color: #ffffff;
-  padding-top: 1rem;
-  padding-bottom: 1rem;  
+  background: #f8f8f8;
+/*   background: linear-gradient(90deg,  #000000 0, #192730 50%); */
+  color: #464646;
+  padding-top: 4rem;
+  
+  padding-bottom: 2rem;  
 }
 
 .termsTittle h1{
