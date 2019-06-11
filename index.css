@@ -4,7 +4,7 @@
 }
 .header{
  
-    background: linear-gradient(90deg,  #000000 0, #192730 50%);
+    background: linear-gradient(90deg,  rgb(23, 42, 116), #000000 80%);
    
     
     width: 100%;
@@ -172,7 +172,15 @@ h3.heading{
 }
 
 
+.home-inner video {
 
+    -moz-transform: scale(0.9) translate(-200px, -40px);
+    -webkit-transform: scale(0.9) translate(-200px, -40px);
+    -o-transform: scale(0.9) translate(-200px, -40px);
+    -ms-transform: scale(0.9) translate(-200px, -40px);
+    transform: scale(0.9) translate(-200px, -40px);
+
+}
 
 
 
@@ -226,11 +234,6 @@ html{
 }
 
 
-.home-inner{
-    
-    background: url('img/galaxyIMG2.jpg') no-repeat 50% 50%;
-    
-}
 
 
 
@@ -253,6 +256,7 @@ html{
   height: 100%;
 }
 .home-inner {
+  
   position: fixed;
   display: table;
   top: 0;
@@ -276,11 +280,11 @@ html{
 .card{
     border: 0px;
     border-radius: 30px;
-   transition: .6;
-   overflow: hidden;
-    -webkit-box-shadow: 0px 0px 26px -1px rgba(25,39,48,0.23);
-    -moz-box-shadow: 0px 0px 26px -1px rgba(25,39,48,0.23);
-    box-shadow: 0px 0px 26px -1px rgba(25,39,48,0.23);
+    transition: .6;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 11px 26px -2px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 11px 26px -2px rgba(0,0,0,0.25);
+    box-shadow: 0px 11px 26px -2px rgba(0,0,0,0.25);
    
     
 }
@@ -300,7 +304,7 @@ html{
 
 
  }
-.card:hover{
+/* .card:hover{
     animation: fadeIn 500ms ;
      
     -webkit-box-shadow: 0px 48px 72px -1px rgba(233,195,97,0.93);
@@ -310,7 +314,7 @@ html{
     
     
 
-}
+} */
 
 
 @keyframes landingAnimation{
@@ -386,7 +390,7 @@ html{
 
 #footer{
     
-    background: linear-gradient(90deg,  #000000 0, #192730 50%)
+  background: linear-gradient(90deg,  rgb(23, 42, 116), #000000 80%);
    
 }
 #footer a{

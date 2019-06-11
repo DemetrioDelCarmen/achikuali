@@ -1,4 +1,4 @@
-  $(document).ready(function () {
+  /*$(document).ready(function () {
 
     $('.cardWell').hover(
         // trigger when mouse hover
@@ -17,4 +17,4 @@
     );
 
 
-});
+});*/
