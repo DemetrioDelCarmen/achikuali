@@ -75,8 +75,17 @@
   color:#192730;
   
  
+
 }
 
+#smallANIOS{
+  margin-left: 50%;
+
+}
+
+.centered{
+  text-align: center;
+}
 
 
   @keyframes fadeIn {
